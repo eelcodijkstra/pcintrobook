@@ -6,7 +6,7 @@ Deze kun je later toepassen in allerlei praktische projecten.
 Physical computing gaat over het gebruik van computers voor het waarnemen en sturen in de fysieke wereld.
 Voor het waarnemen gebruik je *sensoren*, voor het sturen *actuatoren*.
 
-Physical computing kom je onder andere in de volgende gebieden tegen:
+Physical computing kom je onder andere tegen in de volgende gebieden:
 
 * embedded systems: apparaten die bestuurd worden door een computer. Denk bijvoorbeeld aan een printer, een wasautomaat, een slimme lamp, een CV-thermostaat, enz. Heel veel apparaten die op elektriciteit werken, gebruiken tegenwoordig een computer voor de besturing.
 * robotica: van speelgoed-robots en educatieve robots, via industriële robots, tot *humanoids*.
