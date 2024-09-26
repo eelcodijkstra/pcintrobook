@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints/
+notebooks/.DS_Store
+notebooks/.ipynb_checkpoints/
+notebooks/_build/
+ext/sphinx-exercise
+ext/__pycache__
+ext/sphinx-assessment
+.obsidian
+_build/*
+*.drawio.bkp
+

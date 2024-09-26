@@ -1,0 +1,50 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Inleiding Physical Computing
+    chapters:
+    - file: ontwerpvragen
+    
+  - caption: Opdrachten
+    chapters:
+    - file: opdrachten/kloppend-hart
+    - file: opdrachten/led-drukknop
+    - file: opdrachten/led-aan-uit-knoppen
+    - file: opdrachten/led-enkele-aan-uit-knop    
+    - file: opdrachten/knipperende-led
+    - file: opdrachten/led-tijdschakelaar
+    - file: opdrachten/led-potmeter    
+    - file: opdrachten/led-knoppen-dimmer
+    - file: opdrachten/led-instelbare-pwm
+    - file: opdrachten/servo-motoren
+    - file: opdrachten/event-detectie
+    - file: opdrachten/dc-motor
+    - file: opdrachten/temperatuur
+    - file: opdrachten/afstandssensor
+    
+  - caption: Concepten
+    chapters:
+    - file: concepten/overzicht
+    - file: concepten/input-output-systemen
+    - file: concepten/signalen-en-events
+    - file: concepten/tijd
+    - file: concepten/toestandsdiagrammen
+    - file: concepten/sturen
+    - file: concepten/timers
+
+  - caption: Componenten
+    chapters:
+    - file: componenten/microbit
+
+  - caption: Appendix
+    chapters:
+    - file: overzicht
+    - file: begrippenlijst
+    - file: faq
+
+  - caption: Voor de docent
+    chapters:
+    - file: docent/opzet
