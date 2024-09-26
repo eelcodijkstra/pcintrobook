@@ -63,7 +63,11 @@ We gebruiken dezelfde terminologie voor de sensoren en actuatoren: een sensor di
 
 ### Signaalbesturing: signaal(en) in, signaal(en) uit
 
-FIG signaal in - signaal uit
+:::{figure} ../figs/signaal-sturing.drawio.png
+:width: 350
+
+Signaal-sturing (met een enkel signaal)
+:::
 
 Een eenvoudige vorm van besturing is wanneer je een input-signaal direct omrekent naar een output-signaal.
 
@@ -93,7 +97,11 @@ Deze eenvoudige besturing kun je gebruiken als je het effect van de actuator in 
 
 #### Feedback-regelaar
 
-FIG feedback-regelaar
+:::{figure} ../figs/feedback-signaal-sturing.drawio.png
+:width: 450
+
+Feedback-regelaar
+:::
 
 In de feedback-besturing gebruik je twee input-signalen, en één output-signaal. Het ene input-signaal is de ingestelde waarde: het effect in de fysieke omgeving dat je wilt bereiken. Het andere input-signaal komt van een sensor die het actuele effect in de fysieke omgeving meet. Als die twee verschillen, stuur je via het output-signaal de actuator aan.
 
