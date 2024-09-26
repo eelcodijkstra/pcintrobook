@@ -2,7 +2,11 @@
 
 ## Inleiding
 
-FIG physical computing system
+:::{figure} ../figs/physical-computing-inleiding-0.drawio.png
+:width: 600
+
+Physical computing: verbinding tussen *fysieke wereld* en *informatie-wereld*.
+:::
 
 Een *physical computing systeem* verbindt de fysieke wereld, van materie, energie, krachten en velden, met de informatie-wereld, van data, rekenen, computers en internet. 
 Een physical computing systeem heeft als doel om de fysieke wereld te meten en/of te sturen.
@@ -31,8 +35,14 @@ Een **signaal** heeft op elk moment een waarde. Een voorbeeld van een signaal is
 
 Een **event** heeft alleen een waarde op een enkel, ondeelbaar moment. Een voorbeeld van een event is het indrukken van een drukknopschakelaar, of het schudden van de microbit.
 
-Een signaal kun je als fysiek verschijnsel zien, bijvoorbeeld in de vorm van een elektrische spanning of stroom.
-Maar je kunt het ook zien als een informatie-verschijnsel: dan spreek je alleen over getalwaarden. In de besturingssoftware hebben we alleen te maken met deze getallen.
+:::{figure} ../figs/button-signal-event.drawio.png
+:width: 500
+
+Signaal van een drukknop (0 als niet ingedrukt, 1 als ingedrukt), en event bij het indrukken van de knop.
+:::
+
+Een signaal kun je als fysiek verschijnsel zien, bijvoorbeeld in de vorm van een elektrische spanning of stroom. (In het geval van de drukknop: 0V of 3.3V).
+Maar je kunt het ook zien als een informatie-verschijnsel: dan spreek je alleen over getalwaarden. (Voor de drukknop: 0 of 1) In de besturingssoftware hebben we alleen te maken met deze getallen. In de opdrachten en beschrijvingen beschouwen we signalen zoals je die ziet in de besturingssoftware.
 
 Deze getallen kunnen een bepaald fysieke grootheid representeren, bijvoorbeeld een temperatuur, een versnelling, of een lichtsterkte. Je kunt een getal omrekenen in de fysieke eenheid van die grootheid, zoals graden Celcius, m/s2, of lumen.
 

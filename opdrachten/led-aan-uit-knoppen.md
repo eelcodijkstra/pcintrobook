@@ -31,6 +31,12 @@ De functie-aanroep `button_a.was_pressed()` levert `True` als de knop A ingedruk
 
 Als deze event opgetreden is, wordt de bijbehorende actie ("event handler") uitgevoerd. In het geval van knop A is dat het aanzetten van de LED.
 
+:::{figure} ../figs/button-signal-event.drawio.png
+:width: 500
+
+Button-event bij het indrukken van de knop
+:::
+
 Op eenzelfde manier wordt, als knop B ingedrukt geweest is, de LED weer uitgezet.
 
 Dit programma is een voorbeeld van het *event-sturing*. Het volgt de algemene structuur in de besturingslus voor het *afhandelen van events*:
