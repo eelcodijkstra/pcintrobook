@@ -1,9 +1,15 @@
 (opdr-led-aan-uit-knoppen)=
 # LED met afzonderlijke aan- en uitknop
 
-Schakeling: een externe LED aangesloten op pin 0. Daarnaast gebruiken we de knoppen A en B.
+:::{admonition} Concepten en voorkennis
+**Voorkennis** besturingsprogramma, bestursingslus, LED-schakeling
 
-Programma:
+**Concepten** events en event-handling, idempotent gedrag
+:::
+
+**Schakeling:** een externe LED aangesloten op pin 0. Daarnaast gebruiken we de knoppen A en B.
+
+**Programma:**
 
 ```python
 from microbit import *
@@ -18,9 +24,10 @@ while True:
         led.write_digital(0)  
 ```
 
-**Toelichting** 
-
+**Toelichting.** 
 De functie-aanroep `button_a.was_pressed()` levert `True` als de knop A ingedrukt geweest is sinds de laatste aanroep van deze functie; anders `False`.  Deze functie signaleert de *event* van het indrukken van deze knop.
+
+> De functie `button_a.was_pressed()` is een *event-functie* in microbit Python; deze geeft aan of er sinds de vorige aanroep van deze functie, de knop A ingedrukt geweest is. De functie `button_a.is_pressed()` is een *signaal-functie*: deze geeft aan of de knop A op het moment van aanroep ingedrukt is: de actuele signaal-waarde.
 
 Als deze event opgetreden is, wordt de bijbehorende actie ("event handler") uitgevoerd. In het geval van knop A is dat het aanzetten van de LED.
 

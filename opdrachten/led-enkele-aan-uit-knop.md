@@ -1,9 +1,15 @@
 (opdr-led-enkele-aan-uit-knop)=
 # LED met enkele aan- en uitknop
 
-Schakeling: een externe LED aangesloten op pin 0. Daarnaast gebruiken we de knoppen A en B.
+:::{admonition} Concepten en voorkennis
+**Voorkennis** events
 
-Programma:
+**Concepten** toestand (state), toestandsovergang, toestandsvariabele, toestandsdiagram
+:::
+
+**Schakeling:** een externe LED aangesloten op pin 0. Daarnaast gebruiken we de knop A.
+
+**Programma:**
 
 ```python
 from microbit import *
@@ -38,5 +44,5 @@ De inkomende pijl links geeft de begintoestand aan (initialisatie).
 
 **Opdracht 1.** Bouw de schakeling, laad het programma op de microbit, en demonstreer de werking.
 
-**Opdracht 2.** Verander de initialisatie zo dat de LED direct brandt (`led.write_digital(1)  # LED aan`). Wat moet je dan nog meer veranderen?
+**Opdracht 2.** Verander de initialisatie zo dat de LED direct brandt (`led.write_digital(1)`). Wat moet je dan nog meer veranderen?
 
