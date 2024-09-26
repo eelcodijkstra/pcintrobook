@@ -6,7 +6,7 @@
 **Concepten** toestand, toestandsdiagram (oefening)
 :::
 
-*Schakeling:* LED aan pin 0, daarnaast gebruiken we de knoppen A en B
+**Schakeling*:* LED aan pin 0, daarnaast gebruiken we de knoppen A en B
 
 Met knop A verhoog je de lichtsterkte van de LED, met knop B verlaag je de lichtsterkte. Je kunt de lichtsterkte instellen op 3 niveaus: 0 (uit), 1 (halve lichtsterkte), en 2 (volledige lichtsterkte).
 De LED wordt aangestuurd via een *analoge output*.

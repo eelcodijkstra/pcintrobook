@@ -1,5 +1,11 @@
 # Servo-motoren
 
+:::{admonition} Concepten en voorkennis
+**Voorkennis** analoge output (PWM)
+
+**Concepten** servo, 180 graden servo, 360 graden (continue) servo
+:::
+
 Er zijn twee soorten servo-motoren: 180 graden servo's om te sturen, en 360 graden servo's die je kunt gebruiken als aandrijving. We behandelen eerst de 180 graden servo en daarna de 360 graden servo.
 De 180 graden servo is de meest voorkomende variant. Als er verder niets bij staat, wordt die versie bedoeld.
 
@@ -58,6 +64,8 @@ Het bereik van de potmeter-waarde is 0..1023; het bereik van de servo-waarde is 
 
 - van 1023 terug naar 100 (ongeveer): delen door 10
 - en dan 25 erbij optellen.
+
+**Programma**
 
 ```Python
 from microbit import * 
