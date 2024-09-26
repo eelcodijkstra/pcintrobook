@@ -19,10 +19,11 @@ while True:
 Dit programma volgt de [structuur van een *besturingsprogramma*](besturingsprogramma-structuur) in (micro)Python.
 Dit is een eenvoudig programma, omdat het geen invoer gebruikt: het gedrag (de uitvoer) zal daardoor altijd hetzelfde zijn.
 
-## Variaties
+**Opdracht 1.** Voer dit programma in in de microbit Python editor (https://python.microbit.org/v/3). Controleer de werking in de simulator. Verbind je microbit met de computer, en laad het programma op de microbit. Demonstreer de werking.
 
-* laat in plaats van een hart, een andere figuur zien.
-* verander de snelheid (frequentie) waarmee het hart knippert. Zorg er voor dat de "aan"tijd waarin het oplicht gelijk blijft aan de "uit"tijd waarin het scherm zwart is.
-    * wat is de maximale tijd (minimale frequentie) waarbij je het hart nog ziet knipperen?
-* verander de verhouding tussen de "aan"tijd en de "uit"tijd.
-    * wat is het effect als de "aan"tijd veel kleiner is dan de "uit"tijd, en de frequentie hoog genoeg zodat je het hart niet ziet knipperen?
+**Opdracht 2.** Laat in plaats van een hart, een andere figuur zien. Controleer dit eerst in de simulator, en laad het daarna op je microbit.
+
+**Opdracht 3.** Verander de snelheid ({term}`frequentie`) waarmee het hart knippert. Zorg er voor dat de "aan"tijd waarin het oplicht gelijk blijft aan de "uit"tijd waarin het scherm zwart is. Laad het programma na een verandering steeds op je microbit.
+
+- (a) wat is de maximale tijd (minimale frequentie) waarbij je het hart nog ziet knipperen?
+- (b) verander de verhouding tussen de "aan"tijd en de "uit"tijd. Wat is het effect als de "aan"tijd veel kleiner is dan de "uit"tijd, en de frequentie hoog genoeg zodat je het hart niet ziet knipperen?
