@@ -28,10 +28,10 @@ parts:
   - caption: Concepten
     chapters:
     - file: concepten/overzicht
+    - file: concepten/sturen    
     - file: concepten/tijd
-    - file: concepten/toestandsdiagrammen
-    - file: concepten/sturen
     - file: concepten/timers
+    - file: concepten/toestandsdiagrammen
 
   - caption: Componenten
     chapters:
