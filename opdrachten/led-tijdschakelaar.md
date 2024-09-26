@@ -1,10 +1,16 @@
 # LED-tijdschakelaar
 
-"one shot timer"
+:::{admonition} Concepten en voorkennis
+**Voorkennis** timer, events, toestand
 
-Schakeling: LED aangesloten op pin 0; daarnaast gebruiken we knop A.
+**Concepten**  (eenmalige) timer ("one shot timer")
+:::
+
+**Schakeling:** LED aangesloten op pin 0; daarnaast gebruiken we knop A.
 
 Met drukknop A zet je de LED aan. Na een bepaalde tijd (de `on_period`) schakelt de LED weer uit. Als je tijdens het branden van de LED weer op de knop drukt, gaat deze tijd opnieuw in.
+
+**Programma**
 
 ```Python
 from microbit import *
@@ -26,10 +32,11 @@ while True:
         state = 0
 ```
 
+**Toelichting.**
 Dit programma is een combinatie van de LED aan/uitschakelaar met enkele knop en de knipperende LED: met (event) knop A zet je de LED aan, daarbij wordt ook de timer ingesteld. Bij de event van het aflopen van de timer schakelt de LED uit.
 Merk op dat bij het indrukken van de knop de timer altijd opnieuw ingesteld wordt, ook als de lamp al brandt.
 
-Er is in dit geval sprake van een {term}`one-shot timer`: nadat de timer afgelopen is, loopt deze niet meer, totdat deze opnieuw ingesteld wordt. In dit geval kunnen we uit de toestand opmaken of de timer loopt. We mogen de timer `on_limit` alleen controleren deze loopt, met andere woorden: als `state == 1`, vandaar de extra voorwaarde bij de laatste `if`.
+Er is in dit geval sprake van een {term}`one-shot timer`: nadat de timer afgelopen is, loopt deze niet meer, totdat deze opnieuw ingesteld wordt. In dit geval kunnen we uit de toestand opmaken of de timer loopt. We mogen de timer `on_limit` alleen controleren deze timer loopt, met andere woorden: als `state == 1`, vandaar de extra voorwaarde bij de laatste `if`.
 (Een {term}`periodieke timer` loopt altijd: in dat geval heb je geen aparte (toestands)variabele nodig om bij te houden of de timer wel of niet loopt.)
 
 ```{figure} ../figs/led-met-timer-diagram.drawio.png

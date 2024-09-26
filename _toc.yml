@@ -28,8 +28,6 @@ parts:
   - caption: Concepten
     chapters:
     - file: concepten/overzicht
-    - file: concepten/input-output-systemen
-    - file: concepten/signalen-en-events
     - file: concepten/tijd
     - file: concepten/toestandsdiagrammen
     - file: concepten/sturen

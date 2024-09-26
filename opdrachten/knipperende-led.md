@@ -37,7 +37,7 @@ while True:
             timer_limit = utime.ticks_add(now, period - on_period)
 ```
 
-**Toelichting.** Dit programma heeft dezelfde opzet als het programma voor het aan- en uitzetten van de LED met één enkele aan/uit-knop. (*Vergelijk deze.*). De schakelaar-event is nu vervangen door een timer-event. Als de timer afloopt (`now > timer_limit`) schakelen we de led aan of uit, afhankelijk van de toestand. Daarbij zetten we direct `timer_limit` voor de volgende timer-event: de timer is altijd actief.
+**Toelichting.** Dit programma heeft dezelfde opzet als het programma voor het aan- en uitzetten van de LED met één enkele aan/uit-knop. (*Vergelijk deze.*). De schakelaar-event is nu vervangen door een timer-event. Als de timer afloopt (`now > timer_limit`) schakelen we de led aan of uit, afhankelijk van de toestand. Daarbij zetten we direct `timer_limit` voor de volgende timer-event: de timer is altijd actief. (Dit is een *periodieke timer*.)
 
 De tikken kunnen "rond tellen": als `utime.ticks_ms()` de maximale waarde bereikt heeft, begint deze weer bij 0 te tellen. Dit betekent dat de vergelijking tussen `now` en `timer_limit` wat ingewikkelder is dan een vergelijking tussen 2 "normale" getallen. Door het verschil `now - timer_limit` te schrijven als `utime.ticks_diff(now, timer_limit)` los je dat probeem op. Op eenzelfde manier schrijf je `now + on_period` als `utime.ticks_add(now, on_period)`.
 
