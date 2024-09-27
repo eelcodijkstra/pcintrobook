@@ -5,8 +5,8 @@ project:
   # title:
   # description:
   keywords: []
-  authors: []
-  # github:
+  # authors: [Eelco Dijkstra]
+  github: https://github.com/infvo/pcintrobook
   # bibliography: []
 site:
   template: book-theme
@@ -18,3 +18,4 @@ site:
     - title: Learn More
       url: https://mystmd.org/guide
   domains: []
+
