@@ -1,4 +1,4 @@
-# Event-detectie
+# 11. Event-detectie
 
 Voor sommige events heeft microbit Python speciale functies, bijvoorbeeld `button.was_pressed()` of `accelerometer.was_gesture(shake)`. Maar voor externe sensoren moet je de events zelf detecteren.
 We geven hieronder een voorbeeld hoe je de event van het indrukken van een knop kunt detecteren in het (digitale) signaal van die knop.

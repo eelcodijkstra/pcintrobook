@@ -1,5 +1,5 @@
 (opdr-led-aan-uit-knoppen)=
-# LED met afzonderlijke aan- en uitknop
+# 3. LED met afzonderlijke aan- en uitknop
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** besturingsprogramma, bestursingslus, LED-schakeling

@@ -1,4 +1,4 @@
-# LED-tijdschakelaar
+# 6. LED-tijdschakelaar
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** timer, events, toestand

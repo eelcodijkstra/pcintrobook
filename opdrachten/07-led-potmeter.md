@@ -1,5 +1,5 @@
 (led-potmeter)=
-# LED dimmer met potmeter
+# 7. LED dimmer met potmeter
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** signaal-sturing

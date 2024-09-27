@@ -1,5 +1,5 @@
 (led-drukknop)=
-# LED met drukknop
+# 2. LED met drukknop
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis**

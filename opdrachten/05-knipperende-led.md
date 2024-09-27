@@ -1,4 +1,4 @@
-# Knipperende LED
+# 5. Knipperende LED
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** events, toestand, toestandsovergang, toestandsdiagram

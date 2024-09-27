@@ -36,7 +36,7 @@ pulse width modulation
 : (PWM) een periodiek digitaal signaal met een bepaalde verhouding tussen de "1" tijd en de "0" tijd. Deze *duty cycle* wordt uitgedrukt als de verhouding tussen de "1" tijd en de hele periode, als percentage. De Python opdracht `pin0.write_analog(level)` stelt een PWM-signaal in voor `pin0`, waarbij `level` een getal is tussen 0..1023; 1023 komt overeen met een duty cycle van 100%.
 
 PWM
-: zie {term}`pulse width modulation`
+: zie {term}`pulse width modulation`.
 
 sensor
 : een sensor zet een fysiek verschijnsel om in informatie

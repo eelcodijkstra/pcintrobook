@@ -1,4 +1,4 @@
-# Afstandssensor
+# 14. Afstandssensor
 
 We gebruiken in dit voorbeeld een ultrasone afstandssensor.
 Dit soort sensoren wordt bijvoorbeeld gebruikt als parkeersensor, 

@@ -1,4 +1,4 @@
-# LED instelbare PWM dimmer
+# 9. LED instelbare PWM dimmer
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** timers, periodieke timer, analoge input, analoge output 
