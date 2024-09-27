@@ -1,4 +1,4 @@
-# Servo-motoren
+# 10. Servo-motoren
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** analoge output (PWM)

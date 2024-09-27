@@ -1,4 +1,4 @@
-# Kloppend hart
+# 1. Kloppend hart
 
 Dit is een eenvoudig voorbeeld, om te zien of alles werkt: test eerst het programma op de host-computer; breng het programma dan over van de host-computer naar de microbit, en laat het daar uitvoeren.
 

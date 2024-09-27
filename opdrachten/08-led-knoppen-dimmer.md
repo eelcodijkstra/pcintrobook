@@ -1,4 +1,4 @@
-# LED dimmer met knoppen
+# 8. LED dimmer met knoppen
 
 :::{admonition} Concepten en voorkennis
 **Voorkennis** events, toestand, toestandsdiagram, analoge output

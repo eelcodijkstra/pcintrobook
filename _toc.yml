@@ -10,20 +10,20 @@ parts:
     
   - caption: Opdrachten
     chapters:
-    - file: opdrachten/kloppend-hart
-    - file: opdrachten/led-drukknop
-    - file: opdrachten/led-aan-uit-knoppen
-    - file: opdrachten/led-enkele-aan-uit-knop    
-    - file: opdrachten/knipperende-led
-    - file: opdrachten/led-tijdschakelaar
-    - file: opdrachten/led-potmeter    
-    - file: opdrachten/led-knoppen-dimmer
-    - file: opdrachten/led-instelbare-pwm
-    - file: opdrachten/servo-motoren
-    - file: opdrachten/event-detectie
-    - file: opdrachten/dc-motor
-    - file: opdrachten/temperatuur
-    - file: opdrachten/afstandssensor
+    - file: opdrachten/01-kloppend-hart
+    - file: opdrachten/02-led-drukknop
+    - file: opdrachten/03-led-aan-uit-knoppen
+    - file: opdrachten/04-led-enkele-aan-uit-knop    
+    - file: opdrachten/05-knipperende-led
+    - file: opdrachten/06-led-tijdschakelaar
+    - file: opdrachten/07-led-potmeter    
+    - file: opdrachten/08-led-knoppen-dimmer
+    - file: opdrachten/09-led-instelbare-pwm
+    - file: opdrachten/10-servo-motoren
+    - file: opdrachten/11-event-detectie
+    - file: opdrachten/12-dc-motor
+    - file: opdrachten/13-temperatuur
+    - file: opdrachten/14-afstandssensor
     
   - caption: Concepten
     chapters:
