@@ -1,5 +1,11 @@
 # 1. Kloppend hart
 
+
+:::{image} ../figs/microbit-kloppend-hart.png
+:width: 200
+:align: right
+:::
+
 Dit is een eenvoudig voorbeeld, om te zien of alles werkt: test eerst het programma op de host-computer; breng het programma dan over van de host-computer naar de microbit, en laat het daar uitvoeren.
 
 Initieel is het display leeg. In de lus toont het programma een hart op het display, en 500 ms later een leeg display, en 500 ms later weer het hart enz.
@@ -19,7 +25,16 @@ while True:
 Dit programma volgt de [structuur van een *besturingsprogramma*](besturingsprogramma-structuur) in (micro)Python.
 Dit is een eenvoudig programma, omdat het geen invoer gebruikt: het gedrag (de uitvoer) zal daardoor altijd hetzelfde zijn.
 
-**Opdracht 1.** Voer dit programma in in de microbit Python editor (https://python.microbit.org/v/3). Controleer de werking in de simulator. Verbind je microbit met de computer, en laad het programma op de microbit. Demonstreer de werking.
+**Opdracht 1.** 
+
+* Voer dit programma in in de microbit Python editor (https://python.microbit.org/v/3)
+    * kopieer (Copy) de programmatekst door in de rechter bovenhoek van het programma-blok te klikken.
+    * selecteer de bestaande tekst in het code-deel van de Python editor (middelste deel van het venster)
+    * plak (Paste) de programmatekst in het code-deel
+* Controleer de werking in de simulator.
+    * klik op het pijltje op de microbit-figuur rechtsboven
+    * je kunt de simulator besturen met de blokjes onderaan die figuur
+* Verbind je microbit met de computer, en laad het programma op de microbit. Demonstreer de werking.
 
 **Opdracht 2.** Laat in plaats van een hart, een andere figuur zien. Controleer dit eerst in de simulator, en laad het daarna op je microbit.
 
